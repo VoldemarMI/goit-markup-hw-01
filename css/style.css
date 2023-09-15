@@ -56,12 +56,12 @@ text-transform: uppercase;
     font-style: normal;
 }
 
-.contact-item{
-    coloe: #434455
+.contact-item-link{
+    color: #434455
 }
 
-.contact-item:hover, 
-.contact-item:focus{
+.contact-item-link:hover, 
+.contact-item-link{
 color:#404BBF
 }
 
