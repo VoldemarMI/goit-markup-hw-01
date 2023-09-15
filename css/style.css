@@ -41,8 +41,6 @@ text-transform: uppercase;
 }
 
 .menu-nav{
-    display: inline-flex;
-    gap: 40px;
 }
 
 .address{
