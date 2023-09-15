@@ -56,6 +56,15 @@ text-transform: uppercase;
     font-style: normal;
 }
 
+.contact-item{
+    coloe: #434455
+}
+
+.contact-item:hover, 
+.contact-item:focus{
+color:#404BBF
+}
+
 .header-soc {
 }
 .header-menu {
@@ -97,14 +106,14 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 .general-but {
+    font-family: "Roboto", sans-serif;
     color:#ffffff
-    font-family: Roboto;
     font-size: 16px;
     border-radius: 4px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    background: #4D5AE5;
+    background-color:  rgba(77, 90, 229, 1);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     padding: 16px 32px;
@@ -144,6 +153,10 @@ letter-spacing: 0.32px;
 }
 
 /* SECTION 3 */
+
+.team{
+background-color: #F4F4FD;
+}
 
 .header-team {
     color: #2E2F42;
