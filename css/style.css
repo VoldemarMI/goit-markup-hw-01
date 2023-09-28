@@ -35,7 +35,7 @@ img{
     display: block;
 }
 
-.conteiner{
+.container{
     width: 1158px;
     padding: 0 15px 0 15px;
     margin: 0 auto;
@@ -47,7 +47,7 @@ img{
     background: var(--WHITE, #fff);
 }
 
-.header-conteiner{
+.header-container{
     justify-content: center;
     align-items: center;
     display: flex;
@@ -93,7 +93,7 @@ img{
 }
 
 .header-soc {
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
 }
 
@@ -223,6 +223,7 @@ img{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 .studios-item {
     display: flex;
