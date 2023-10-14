@@ -80,6 +80,11 @@ img{
     margin-right: 76px;
 }
 
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
 .menu-nav{
     justify-content: space-between;
     display: flex;
@@ -224,6 +229,7 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
     margin-bottom: 8px;
+    visibility: hidden;
 }
 .studios-item {
     display: flex;
@@ -240,6 +246,7 @@ img{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 .studios-item-text {
     color: #434455;
