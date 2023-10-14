@@ -217,7 +217,7 @@ img{
     padding: 120px 0;
 }
 
-.studios-header {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -229,8 +229,8 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
     margin-bottom: 8px;
-    visibility: hidden;
 }
+
 .studios-item {
     display: flex;
     gap: 24px;
